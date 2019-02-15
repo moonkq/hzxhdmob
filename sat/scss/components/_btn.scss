@@ -1,0 +1,19 @@
+.btn-danlan {
+    color: $bai;
+    background: $danlan;
+    border: $danlan;
+
+    &:hover {
+        background: darken($danlan, 10%);
+    }
+}
+
+.btn-shenlan {
+    color: $bai;
+    background: $shenlan;
+    border: $shenlan;
+
+    &:hover {
+        background: darken($shenlan, 10%);
+    }
+}

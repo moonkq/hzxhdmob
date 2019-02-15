@@ -1,0 +1,8 @@
+.btn-danlan {
+    background: $danlan;
+    border: $danlan;
+
+    &:hover {
+        background: darken($danlan, 10%);
+    }
+}

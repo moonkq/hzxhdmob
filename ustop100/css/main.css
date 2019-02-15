@@ -1,0 +1,55 @@
+.header-nav-bar {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 44px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f9fa; }
+  .header-nav-bar a {
+    color: #666; }
+    .header-nav-bar a:hover {
+      text-decoration: none; }
+  .header-nav-bar h4 {
+    line-height: 44px;
+    margin-bottom: 0;
+    color: #666; }
+  .header-nav-bar .action-home {
+    float: left;
+    margin-right: -8px;
+    width: 40px;
+    height: 44px;
+    line-height: 42px;
+    font-size: 20px;
+    color: #666;
+    text-align: center; }
+
+.footer {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 40px; }
+  .footer p {
+    margin-bottom: 0; }
+
+.school-table {
+  height: 300px;
+  overflow: auto; }
+
+.banner {
+  background: url("../images/banner.jpg") center;
+  background-size: cover; }
+
+.school-tab a {
+  color: #495057; }
+  .school-tab a.active {
+    color: #28a745 !important; }
+
+/*# sourceMappingURL=main.css.map */

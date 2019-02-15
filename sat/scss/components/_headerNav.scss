@@ -1,0 +1,45 @@
+$navcolor: #f8f9fa;
+$iconcolor: #666;
+
+.header-nav-bar {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 44px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    background-color: $navcolor;
+
+    a {
+        color: $iconcolor;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    h4 {
+        line-height: 44px;
+        margin-bottom: 0;
+        color: $iconcolor;
+    }
+
+    .action-home {
+        float: left;
+        margin-right: -8px;
+        width: 40px;
+        height: 44px;
+        line-height: 42px;
+        font-size: 20px;
+        color: $iconcolor;
+        text-align: center;
+    }
+}
+

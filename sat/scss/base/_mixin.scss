@@ -1,0 +1,15 @@
+@mixin icon($x1: -37px, $y1: 0, $color: $cheng, $x2: -37px, $y2: -37px) {
+
+    i {
+        background-position: $x1 $y1;
+    }
+
+    &:hover {
+        color: $color;
+
+        i {
+            background-position: $x2 $y2;
+        }
+
+    }
+}

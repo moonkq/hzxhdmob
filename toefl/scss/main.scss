@@ -1,0 +1,16 @@
+@import 'base/variable';
+@import 'base/mixin';
+@import 'layout/encyclopedia';
+@import 'layout/testform';
+@import 'layout/kczx';
+@import 'layout/hotnews';
+@import 'components/headerNav';
+@import 'components/btn';
+
+.bg-cheng {
+    background: $cheng;
+}
+
+.bg-danlan {
+    background: $danlan;
+}

@@ -1,0 +1,71 @@
+.encyclopedia {
+    border: 1px solid $qianhui;
+    border-radius: 5px;
+
+    h4 {
+        color: $hui;
+        line-height: 2em;
+        margin-bottom: 0;
+    }
+
+    a {
+        display: block;
+        color: $hui;
+        border-left: 1px solid $qianhui;
+        border-top: 1px solid $qianhui;
+
+        &:nth-child(2) {
+            border-left: 0;
+        }
+
+        &:nth-child(6) {
+            border-left: 0;
+        }
+
+        i {
+            display: block;
+            width: 32px;
+            height: 32px;
+            margin: 20px auto 8px;
+            background: url('../images/encyclopedia_icon.png') no-repeat;
+        }
+
+        span {
+            font-size: 14px;
+            line-height: 3em;
+        }
+
+    }
+
+    a:nth-child(2) {
+        @include icon(0, 0, $cheng, 0, -37px);
+    }
+
+    a:nth-child(3) {
+        @include icon(-37px, 0, $cheng, -37px, -37px);
+    }
+
+    a:nth-child(4) {
+        @include icon(-37px * 2, 0, $cheng, -37px * 2, -37px);
+    }
+
+    a:nth-child(5) {
+        @include icon(-37px * 3, 0, $cheng, -37px * 3, -37px);
+    }
+
+    a:nth-child(6) {
+        @include icon(-37px * 4, 0, $cheng, -37px * 4, -37px);
+    }
+
+    a:nth-child(7) {
+        @include icon(0, -37px * 2, $cheng, 0, -37px * 3);
+    }
+
+    a:nth-child(8) {
+        @include icon(-37px, -37px * 2, $cheng, -37px, -37px * 3);
+    }
+
+    a:nth-child(9) {
+        @include icon(-37px * 2, -37px * 2, $cheng, -37px * 2, -37px * 3);
+    }
+}

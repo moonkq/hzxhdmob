@@ -1,0 +1,682 @@
+
+/*主页面内容*/
+.mui-content {
+	background-color: #f7f7f7;
+}
+/*课程*/
+.course-container {
+	position: relative;
+	z-index: 9999;
+	margin-top: 44px;
+}
+.course-container:after {
+	display: block;
+	content: '';
+	height: 1px;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #ccc;
+}
+.course-all.course-container:after {
+	height: 0;
+}
+.course-list {
+	padding: 15px 10px 0;
+	background-color: #fff;
+}
+.course-list .course-item {
+	float: left;
+	width: 25%;
+	margin: 4px 0;
+}
+.course-list .course-item span {
+	display: block;
+	text-align: center;
+}
+.course-list .course-item .tab-label {
+	font-size: 13px;
+	line-height: 30px;
+	color: #666;
+}
+.course-list .course-item .course-icon {
+	margin: 0 auto;
+	width: 56px;
+	height: 56px;
+	line-height: 56px;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+}
+.course-list .course-item:nth-child(1) .course-icon {
+	font-size: 26px;
+	background-color: #f1594b;
+}
+.course-list .course-item:nth-child(1) .course-icon:before {
+	content: "\e602";
+}
+.course-list .course-item:nth-child(2) .course-icon {
+	font-size: 28px;
+	line-height: 60px;
+	background-color: #f39826;
+}
+.course-list .course-item:nth-child(2) .course-icon:before {
+	content: "\e651";
+}
+.course-list .course-item:nth-child(3) .course-icon {
+	font-size: 25px;
+	line-height: 58px;
+	background-color: #36bc99;
+}
+.course-list .course-item:nth-child(3) .course-icon:before {
+	content: "\e65b";
+}
+.course-list .course-item:nth-child(4) .course-icon {
+	font-size: 34px;
+	line-height: 65px;
+	background-color: #fe77b0;
+}
+.course-list .course-item:nth-child(4) .course-icon:before {
+	content: "\e683";
+}
+.course-list .course-item:nth-child(5) .course-icon {
+	font-size: 36px;
+	line-height: 54px;
+	background-color: #a8da58;
+}
+.course-list .course-item:nth-child(5) .course-icon:before {
+	content: "\e65c";
+}
+.course-list .course-item:nth-child(6) .course-icon {
+	font-size: 27px;
+	line-height: 50px;
+	background-color: #6d88ff;
+}
+.course-list .course-item:nth-child(6) .course-icon:before {
+	content: "\e631";
+}
+.course-list .course-item:nth-child(7) .course-icon {
+	font-size: 32px;
+	line-height: 58px;
+	background-color: #f98192;
+}
+.course-list .course-item:nth-child(7) .course-icon:before {
+	content: "\e616";
+}
+.course-list .course-item:nth-child(8) .course-icon {
+	font-size: 28px;
+	line-height: 58px;
+	background-color: #85a8d7;
+}
+.course-list .course-item:nth-child(8) .course-icon:before {
+	content: "\e65a";
+}
+.course-list .course-item:nth-child(9) .course-icon {
+	font-size: 28px;
+	line-height: 58px;
+	background-color: #dd66ff;
+}
+.course-list .course-item:nth-child(9) .course-icon:before {
+	content: "\e614";
+}
+.course-list .course-item:nth-child(10) .course-icon {
+	font-size: 34px;
+	line-height: 64px;
+	background-color: #7a73ff;
+}
+.course-list .course-item:nth-child(10) .course-icon:before {
+	content: "\e61d";
+}
+.course-list .course-item:nth-child(11) .course-icon {
+	font-size: 25px;
+	line-height: 59px;
+	background-color: #ffc62d;
+}
+.course-list .course-item:nth-child(11) .course-icon:before {
+	content: "\e624";
+}
+.course-list .course-item:nth-child(12) .course-icon {
+	font-size: 30px;
+	line-height: 59px;
+	background-color: #c15974;
+}
+.course-list .course-item:nth-child(12) .course-icon:before {
+	content: "\e6bb";
+}
+.course-list .course-item:nth-child(13) .course-icon {
+	font-size: 30px;
+	line-height: 53px;
+	background-color: #30b0ec;
+}
+.course-list .course-item:nth-child(13) .course-icon:before {
+	content: "\e632";
+}
+.course-list .course-item:nth-child(14) .course-icon {
+	font-size: 25px;
+	line-height: 58px;
+	background-color: #fc8e5e;
+}
+.course-list .course-item:nth-child(14) .course-icon:before {
+	content: "\e620";
+}
+.course-list .course-item:nth-child(15) .course-icon {
+	font-size: 28px;
+	line-height: 52px;
+	background-color: #60ab29;
+}
+.course-list .course-item:nth-child(15) .course-icon:before {
+	content: "\e635";
+}
+/*其他课程*/
+.course-list .course-other .course-other-icon {
+	margin: 0 auto;
+	width: 56px;
+	height: 56px;
+	line-height: 58px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	background-color: #32c9ea;
+}
+.course-list .course-other .course-other-icon:before {
+	content: "\e615";
+}
+
+.course-list-other {
+	padding: 0 10px 10px;
+}
+.course-list-other .course-item:nth-child(1) .course-icon {
+	font-size: 32px;
+	line-height: 58px;
+	background-color: #ebd43d;
+}
+.course-list-other .course-item:nth-child(1) .course-icon:before {
+	content: "\e611";
+}
+.course-list-other .course-item:nth-child(2) .course-icon {
+	font-size: 28px;
+	line-height: 58px;
+	background-color: #32d4c3;
+}
+.course-list-other .course-item:nth-child(2) .course-icon:before {
+	content: "\e6ac";
+}
+.course-list-other .course-item:nth-child(3) .course-icon {
+	font-size: 26px;
+	line-height: 60px;
+	background-color: #a685d7;
+}
+.course-list-other .course-item:nth-child(3) .course-icon:before {
+	content: "\e61b";
+}
+.course-list-other .course-item:nth-child(4) .course-icon {
+	font-size: 34px;
+	line-height: 60px;
+	background-color: #47d670;
+}
+.course-list-other .course-item:nth-child(4) .course-icon:before {
+	content: "\e643";
+}
+/*院校库*/
+.yuanxiaoku{
+	padding: 6px 15px;
+	margin-top: 8px;
+	background-color: #fff;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	  -ms-flex-pack: justify;
+	      justify-content: space-between;
+}
+.yuanxiaoku:before{
+	position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #ccc;
+}
+.yuanxiaoku:after{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #ccc;
+}
+.yuanxiaoku a{
+	width: 110px;
+	height: 40px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: #fff;
+	line-height: 40px;
+	text-indent: 40px;
+}
+.yuanxiaoku a:first-child{
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAAGzs1ytAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OEMzQTk0MDM3OUI5MTFFODhEMjJCOTQ2MEExQTlGQTEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OEMzQTk0MDQ3OUI5MTFFODhEMjJCOTQ2MEExQTlGQTEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4QzNBOTQwMTc5QjkxMUU4OEQyMkI5NDYwQTFBOUZBMSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4QzNBOTQwMjc5QjkxMUU4OEQyMkI5NDYwQTFBOUZBMSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PhaJL8YAAAKUSURBVHjaYvz//z8DDDBB6S0wzkcgXgTE/wECiBGqjBHEgSn7B1MGkloNogECiAGkDIrLgfgIjA/T4gnE74H4MRBHgg0EylYCaXUgvgXE9kD8DIj/AAQQslHFMDYjsmvRXc0AdUk0zFwhIB0PxBJQQVeQGSDwFYh7oOz/LECZErCNEFc8AuIlAAGEbDsMGwDxWSB+ji7HwoAJQHYaQgMMBWDzwgMozQHEl8EORVI8G0i/g5p0GojFgFgRiOWgobUTiK8BsRcoHL4A8V0g/gHEzEDMimTLE6jnQOF/DCCAsHkQhCuxiTNh8eBDIPYHYid80QEDoOi2AOIAYhRbA/EvID6FIYPmroD/CLCXUKREQd38Gxp8WCMFFP9GQNwKxHuB+BIQf4DG5nVwsAHjAmTycSDeBMQy0HCGhTUbEN8AYhMgdgaZyAL1uQVSAoUBUKwuA2IeKP8DyBlN0GzHCc0tN4H4ChB/g8acEpSWBpksCMR8QMwOxKJA/BSIuaG2gORloR5+AxCgsfJZISCMoriYDbFWtsoLWFl4AtYsPII8iJ3HsJKVR7D1Z0ts1JBEJAxjfKd+aprMjFunptvc+5253z1nfgonEGrUg/sbOXYMdlFFyUR81NGhLKLPFrTiiv5prM8+GAwNBvpMcpFh/dF4xjzngVx0hEjqi5EXHpOo2jjGuix5aIHV2BpUEFAjbsYDbnrNjm1Qn3yohjdlWas0HmUbVBmJg7xv9FjqPtT4bLCn6ZTCk0987g9C31zR4MplTjlEfwXbwqh18gpmY5ZcSmkzhmDkUVEXgd8hI1MtqV6Mc8wyBRPPx+gd0K7nw4tRuuBJYz1nxLiJhTw4TS+XMYAL+SOMHEb3wM1PyHrMYQs11Tg+fi6YxW4dx+IAAAAASUVORK5CYII=) 8px center no-repeat #a685d7;
+}
+.yuanxiaoku a:nth-child(2){
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAAGzs1ytAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzBFQkMzOTM3OUI5MTFFODkyNUJCNjM4MDg2OTc2NkYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzBFQkMzOTQ3OUI5MTFFODkyNUJCNjM4MDg2OTc2NkYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3MEVCQzM5MTc5QjkxMUU4OTI1QkI2MzgwODY5NzY2RiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3MEVCQzM5Mjc5QjkxMUU4OTI1QkI2MzgwODY5NzY2RiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PpRkcmAAAAG3SURBVHjaYvz//z8DDDBBaTYQwQiVARMAAcSITZkmmATKFP+HAAaAAAJxYJgFiJ1gfGT9MAYjslkrgPguEL8F4qcgAYAAQrER3WYQ4IMxCKr8D7OUCc0FIGAF074b6qN/QHwRIICQPYKOp6CLYVMEMvUGEMujyzExYAIWINYAYik0h2MoBjnUFkoLAPFfaKhh9fJOIN4FDU4ZqLgOzPcAAYQ10HABJhzioUAsiyGKJTTMobQxMaEBioA1QPyZWGeEATEzMc4A4VJs4ugCJ/6jglpcinWg0bwOSq+GamDCl/CxAZTMMA1KL4bSPFDaFYh/A3ERsmJQ/O8FYnkgfgTEz6FRvhSIzwGxJEgRQIDhS8/Y8Awg/gfEloTUEpuOxKDeeAoNh1/kpjl0NfLQ8OoAYlF4oYQHsBBp8Fcg9oDyFYCYm6AuIsJVFIi5gVgRmk42QvkUhTHIy0FAfB+aPJ5DS0dJaCnRS46Lq/9jgqvQLLwQScyMmPwEw5egms4DsSEQr/iPH0wiZLAEEP/GofkLEPcB8XYksZ1AvAjKvgstprGGMTInHoiPAvEdBtIAI7bkxohLIakAANKfrQCvkJULAAAAAElFTkSuQmCC) 8px center no-repeat #f98192;
+}
+.yuanxiaoku a:nth-child(3){
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAAGzs1ytAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODEzOUE3MzM3OUI5MTFFODk5RjBBNzJDRDlENjBFODQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODEzOUE3MzQ3OUI5MTFFODk5RjBBNzJDRDlENjBFODQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4MTM5QTczMTc5QjkxMUU4OTlGMEE3MkNEOUQ2MEU4NCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4MTM5QTczMjc5QjkxMUU4OTlGMEE3MkNEOUQ2MEU4NCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pr0GQ1UAAAKOSURBVHjaYvz//z8DDLBAaZDIPgaQDBCLgmiAAGJEVsYExFOgyv7DlJWAaIAAgnGQQSVIjAmqlRGId0Dpz0DsBdMBw9YwNkAAodiI7EB0UUYmqHkwUAlz1gwgNoGap4HsvF9AvAOIfUF8mKcVgfg3EMeCOAABhOwkaSBuAuIXSJ5qQ3Y2slOdgdgQiDmB+Cs0rLqhctlAPA3ZZBcgboeyq5FMPwjEb4F4HrLi3UCsBcR/gXgmWqiBgCS6wEkgVgXieCDeCsQtyJoAAghr8OICTEhsfyDeCo98zOgAB3LMf/wAwxkKQOwExJJAzAzEV4G4CoiNkNINA7oHkQEoSm2Q+OYwk92B+AOS60AJ1wTKdgDiBCB+AjM1D4jXo6dEIF4DpacipyJtIE6FWmcBxLOQNIgD8RdkxSDsBlUcDcSyQPwULRbhoZEBxN+AeBEQbwTie0B8Doj/AfFS5HCGYZBGFih7JRAXopsMEKCSOmZJKArDOH63DBsya3BJyEkqbImgwamhoKHA0VEEo2gSWgwCc0kUnJqCICLETVCIivoALS7ZJG5Bi4OQQWD/G49wuxxLX/ht955z7nve+4xy3R4sYw0r2EQNyT/f0g4HqOIFn/3RK+s+qenE83jSlNTRRE+T4kNYJ54ynO8QpV95YWiFF90hH9jGDR4RQl6tGlQGr7g3LWyHShQLmMOOZtxUdzjR3G+hrMDrOPuyhEs8K1kDeMCqq3/2QF44+lyHH5M4wpl7OCOoYRuzKCKNDy0QG3ZRsq7AtdwLO+2ihQ6OsQ+PNroepLRDEHuKr0XTHE//RKplBfGmNHrHqaYhp7/mHHEU0Pgv4uz6QgIVzCCGlDa41SZX2MCEnjfWWEE7Tn0DDkJcDQsgoxAAAAAASUVORK5CYII=) 8px center no-repeat #85a8d7;
+}
+
+
+
+/*热门活动*/
+.hot-activity {
+	position: relative;
+	margin-top: 8px;
+	background-color: #fff;
+}
+.hot-activity:before {
+	display: block;
+	content: '';
+	height: 1px;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #ccc;
+}
+.hot-activity:after {
+	display: block;
+	content: '';
+	height: 1px;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #ccc;
+}
+.hot-activity .title {
+	position: relative;
+	z-index: 10;
+	padding: 0 15px;
+	height: 44px;
+	line-height: 44px;
+}
+.hot-activity .title h2 {
+	float: left;
+	font-size: 17px;
+	font-weight: normal;
+	color: #333;
+}
+.hot-activity .title .icon-remen {
+	float: left;
+	margin: 10px 10px 0 0;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	border-radius: 50%;
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+	background-color: #e63030;
+}
+/*新热门活动轮播*/
+.swiper-container {
+	margin: 0 15px;
+	padding-bottom: 10px;
+}
+.slide-list-img {
+	display: block;
+	width: 100%;
+	height: 6.65rem;
+	max-height: 266px;
+}
+.slide-list h4 {
+	margin-top: 12px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	color: #333;
+}
+.slide-list-detail {
+	margin-top: 5px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.slide-list-content {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	-webkit-flex-shrink: 1;
+	-ms-flex-negative: 1;
+	flex-shrink: 1;
+	padding-right: 10px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #999;
+}
+.slide-list-content p {
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	display: -webkit-box; 
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2; 
+}
+.slide-list-content .icon-address {
+	margin-right: 3px;
+	font-size: 16px;
+}
+.slide-list-content .icon-address:before {
+	content: "\e665"; 
+}
+.slide-list-content .icon-time {
+	margin-right: 3px;
+	font-size: 15px;
+}
+.slide-list-content .icon-time:before {
+	content: "\e696"; 
+}
+.slide-list-button {
+	display: block;
+	width: 80px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	background-color: #3670d7;
+	border: none;
+	border-radius: 5px;
+}
+.swiper-pagination-fraction {
+	top: 0;
+	z-index: 5;
+	padding: 0 15px;
+	height: 44px;
+	line-height: 44px;
+	font-size: 14px;
+	color: #ccc;
+	text-align: right;
+}
+.swiper-pagination-current {
+	font-size: 18px;
+	color: #333;
+}
+
+/*课程列表*/
+.course-view-list .course-view-item {
+	position: relative;
+	margin-top: 8px;
+	background-color: #fff;
+}
+.course-view-list .course-view-item:before {
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #ccc;
+}
+.course-view-list .course-view-item:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #ccc;
+}
+.course-view-list .course-view-item h2 {
+	padding: 0 10px;
+	height: 44px;
+	line-height: 44px;
+	font-size: 17px;
+	font-weight: normal;
+	color: #333;
+}
+.course-view-list .course-view-item h2:after {
+	display: block;
+	height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #ddd;
+}
+.course-view-list .course-view-item h2 .course-icon-item {
+	float: left;
+	margin: 10px 10px 0 0;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+}
+.course-view-list .course-view-item:nth-child(1) h2 .course-icon-item {
+	font-size: 12px;
+	line-height: 26px;
+	background-color: #f1594b;
+}
+.course-view-list .course-view-item:nth-child(1) h2 .course-icon-item:before {
+	content: "\e602";
+}
+.course-view-list .course-view-item:nth-child(2) h2 .course-icon-item {
+	font-size: 13px;
+	line-height: 25px;
+	background-color: #f39826;
+}
+.course-view-list .course-view-item:nth-child(2) h2 .course-icon-item:before {
+	content: "\e651";
+}
+.course-view-list .course-view-item:nth-child(3) h2 .course-icon-item {
+	font-size: 12px;
+	line-height: 26px;
+	background-color: #36bc99;
+}
+.course-view-list .course-view-item:nth-child(3) h2 .course-icon-item:before {
+	content: "\e65b";
+}
+.course-view-list .course-view-item:nth-child(4) h2 .course-icon-item {
+	font-size: 16px;
+	line-height: 28px;
+	background-color: #fe77b0;
+}
+.course-view-list .course-view-item:nth-child(4) h2 .course-icon-item:before {
+	content: "\e683";
+}
+.course-view-list .course-view-item:nth-child(5) h2 .course-icon-item {
+	font-size: 17px;
+	line-height: 23px;
+	background-color: #a8da58;
+}
+.course-view-list .course-view-item:nth-child(5) h2 .course-icon-item:before {
+	content: "\e65c";
+}
+.course-view-list .course-view-item:nth-child(6) h2 .course-icon-item {
+	font-size: 12px;
+	line-height: 23px;
+	background-color: #6d88ff;
+}
+.course-view-list .course-view-item:nth-child(6) h2 .course-icon-item:before {
+	content: "\e631";
+}
+.course-view-list .course-view-item:nth-child(7) h2 .course-icon-item {
+	font-size: 14px;
+	line-height: 25px;
+	background-color: #f98192;
+}
+.course-view-list .course-view-item:nth-child(7) h2 .course-icon-item:before {
+	content: "\e616";
+}
+.course-view-list .course-view-item:nth-child(8) h2 .course-icon-item {
+	font-size: 14px;
+	line-height: 24px;
+	background-color: #85a8d7;
+}
+.course-view-list .course-view-item:nth-child(8) h2 .course-icon-item:before {
+	content: "\e65a";
+}
+.course-view-list .course-view-item:nth-child(9) h2 .course-icon-item {
+	font-size: 14px;
+	background-color: #dd66ff;
+}
+.course-view-list .course-view-item:nth-child(9) h2 .course-icon-item:before {
+	content: "\e614";
+}
+.course-view-list .course-view-item:nth-child(10) h2 .course-icon-item {
+	font-size: 15px;
+	line-height: 29PX;
+	background-color: #7a73ff;
+}
+.course-view-list .course-view-item:nth-child(10) h2 .course-icon-item:before {
+	content: "\e61d";
+}
+.course-view-list .course-view-item:nth-child(11) h2 .course-icon-item {
+	font-size: 12px;
+	line-height: 26px;
+	background-color: #ffc62d;
+}
+.course-view-list .course-view-item:nth-child(11) h2 .course-icon-item:before {
+	content: "\e624";
+}
+.course-view-list .course-view-item:nth-child(12) h2 .course-icon-item {
+	font-size: 14px;
+	line-height: 25px;
+	background-color: #c15974;
+}
+.course-view-list .course-view-item:nth-child(12) h2 .course-icon-item:before {
+	content: "\e6bb";
+}
+.course-view-list .course-view-item:nth-child(13) h2 .course-icon-item {
+	font-size: 14px;
+	line-height: 21px;
+	background-color: #30b0ec;
+}
+.course-view-list .course-view-item:nth-child(13) h2 .course-icon-item:before {
+	content: "\e632";
+}
+.course-view-list .course-view-item:nth-child(14) h2 .course-icon-item {
+	font-size: 12px;
+	line-height: 25px;
+	background-color: #fc8e5e;
+}
+.course-view-list .course-view-item:nth-child(14) h2 .course-icon-item:before {
+	content: "\e620";
+}
+.course-view-list .course-view-item:nth-child(15) h2 .course-icon-item {
+	font-size: 13px;
+	line-height: 22px;
+	background-color: #60ab29;
+}
+.course-view-list .course-view-item:nth-child(15) h2 .course-icon-item:before {
+	content: "\e635";
+}
+
+.course-view-list .course-view-item .course-list-content {
+	padding: 0 10px;
+}
+.course-view-list .course-view-item .course-list-content li {
+	float: left;
+	width: 25%;
+}
+.course-view-list .course-view-item .course-list-content li:after {
+	display: block;
+	height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #ddd;
+}
+.course-view-list .course-view-item .course-list-content li a {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	-ms-grid-row-align: center;
+	align-items: center;
+	margin: 8px 0;
+	padding: 0 8px;
+	width: 100%;
+	height: 66px;
+	font-size: 13px;
+	line-height: 16px;
+}
+.course-view-list .course-view-item .course-list-content li a:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1px;
+	height: 100%;
+    content: '';
+    -webkit-transform: scaleX(.5);
+    transform: scaleX(.5);
+    background-color: #ddd;
+}
+.course-view-list .course-view-item .course-list-content li:nth-child(4n) a:after {
+	width: 0;
+}
+
+/*最新资讯*/
+.news {
+	position: relative;
+	margin-top: 8px;
+	background-color: #fff;
+}
+.news:before {
+	position: absolute;
+    top: -1px;
+    right: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #ccc;
+}
+.news h2 {
+	padding: 0 20px;
+	height: 44px;
+	line-height: 44px;
+	font-size: 17px;
+	font-weight: normal;
+	color: #333;
+}
+.news .news-line-top:before {
+	display: block;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #ddd;
+}
+.news .news-list {
+	margin: 0 auto;
+	padding: 10px;
+}
+.news .news-list a {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+.news .news-list a img {
+	display: block;
+	width: 100%;
+	height: 4.2rem;
+}
+
+
+

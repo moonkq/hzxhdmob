@@ -1,0 +1,25 @@
+.hotnews {
+    border: 1px solid $qianhui;
+    border-radius: 5px;
+
+    a {
+        display: block;
+        margin: 10px 0;
+        color: $hui;
+
+        em {
+            font-style: normal;
+            color: $cheng;
+        }
+
+        span:first-child {
+            display: block;
+            float: left;
+            width: 85%;
+        }
+
+        span:nth-child(2) {
+            display: block;
+        }
+    }
+}

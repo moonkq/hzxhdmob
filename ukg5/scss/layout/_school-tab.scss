@@ -1,0 +1,10 @@
+.school-tab {
+
+        a {
+            color: $hui;
+
+            &.active {
+                color: $lan !important;
+            }
+        }
+}

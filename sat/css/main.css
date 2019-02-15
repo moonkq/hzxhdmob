@@ -1,0 +1,160 @@
+.bg-cheng {
+  background: #ffc107; }
+
+.bg-danlan {
+  background: #29a7e1; }
+
+.bg-shenlan {
+  background: #083090; }
+
+.encyclopedia {
+  border: 1px solid #ddd;
+  border-radius: 5px; }
+  .encyclopedia h4 {
+    color: #666;
+    line-height: 2em;
+    margin-bottom: 0; }
+  .encyclopedia a {
+    display: block;
+    color: #666;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd; }
+    .encyclopedia a:nth-child(2) {
+      border-left: 0; }
+    .encyclopedia a:nth-child(6) {
+      border-left: 0; }
+    .encyclopedia a i {
+      display: block;
+      width: 32px;
+      height: 32px;
+      margin: 20px auto 8px;
+      background: url("../images/encyclopedia_icon.png") no-repeat; }
+    .encyclopedia a span {
+      font-size: 14px;
+      line-height: 3em; }
+  .encyclopedia a:nth-child(2) i {
+    background-position: 0 0; }
+  .encyclopedia a:nth-child(2):hover {
+    color: #ffc107; }
+    .encyclopedia a:nth-child(2):hover i {
+      background-position: 0 -37px; }
+  .encyclopedia a:nth-child(3) i {
+    background-position: -37px 0; }
+  .encyclopedia a:nth-child(3):hover {
+    color: #ffc107; }
+    .encyclopedia a:nth-child(3):hover i {
+      background-position: -37px -37px; }
+  .encyclopedia a:nth-child(4) i {
+    background-position: -74px 0; }
+  .encyclopedia a:nth-child(4):hover {
+    color: #ffc107; }
+    .encyclopedia a:nth-child(4):hover i {
+      background-position: -74px -37px; }
+  .encyclopedia a:nth-child(5) i {
+    background-position: -111px 0; }
+  .encyclopedia a:nth-child(5):hover {
+    color: #ffc107; }
+    .encyclopedia a:nth-child(5):hover i {
+      background-position: -111px -37px; }
+  .encyclopedia a:nth-child(6) i {
+    background-position: -148px 0; }
+  .encyclopedia a:nth-child(6):hover {
+    color: #ffc107; }
+    .encyclopedia a:nth-child(6):hover i {
+      background-position: -148px -37px; }
+  .encyclopedia a:nth-child(7) i {
+    background-position: 0 -74px; }
+  .encyclopedia a:nth-child(7):hover {
+    color: #ffc107; }
+    .encyclopedia a:nth-child(7):hover i {
+      background-position: 0 -111px; }
+  .encyclopedia a:nth-child(8) i {
+    background-position: -37px -74px; }
+  .encyclopedia a:nth-child(8):hover {
+    color: #ffc107; }
+    .encyclopedia a:nth-child(8):hover i {
+      background-position: -37px -111px; }
+  .encyclopedia a:nth-child(9) i {
+    background-position: -74px -74px; }
+  .encyclopedia a:nth-child(9):hover {
+    color: #ffc107; }
+    .encyclopedia a:nth-child(9):hover i {
+      background-position: -74px -111px; }
+
+.testform {
+  border: 1px solid #ddd;
+  border-radius: 5px; }
+  .testform h4 {
+    line-height: 2em;
+    text-indent: 1em;
+    color: #666; }
+
+.kczx th,
+.kczx td {
+  vertical-align: middle; }
+
+.hotnews {
+  border: 1px solid #ddd;
+  border-radius: 5px; }
+  .hotnews a {
+    display: block;
+    margin: 10px 0;
+    color: #666; }
+    .hotnews a em {
+      font-style: normal;
+      color: #ffc107; }
+    .hotnews a span:first-child {
+      display: block;
+      float: left;
+      width: 85%; }
+    .hotnews a span:nth-child(2) {
+      display: block; }
+
+.header-nav-bar {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 44px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f9fa; }
+  .header-nav-bar a {
+    color: #666; }
+    .header-nav-bar a:hover {
+      text-decoration: none; }
+  .header-nav-bar h4 {
+    line-height: 44px;
+    margin-bottom: 0;
+    color: #666; }
+  .header-nav-bar .action-home {
+    float: left;
+    margin-right: -8px;
+    width: 40px;
+    height: 44px;
+    line-height: 42px;
+    font-size: 20px;
+    color: #666;
+    text-align: center; }
+
+.btn-danlan {
+  color: #fff;
+  background: #29a7e1;
+  border: #29a7e1; }
+  .btn-danlan:hover {
+    background: #1a89bd; }
+
+.btn-shenlan {
+  color: #fff;
+  background: #083090;
+  border: #083090; }
+  .btn-shenlan:hover {
+    background: #052060; }
+
+/*# sourceMappingURL=main.css.map */
